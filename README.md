@@ -1,30 +1,29 @@
-# React + TypeScript + Vite
+# SWAPI PEOPLES
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The assignment assigned for the React Developer Intern role involves the development of a web application using React.js and swapi api. This application display a list of users and also implements pagination. The bg color of each user card is based on hair_color. It also has a search input to search the user with name. The user should enter a character name (partial or complete) and will get all matching results displayed. 
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Screenshots
 
-## Expanding the ESLint configuration
+### Page 1
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![App Screenshot](https://res.cloudinary.com/dopqu0rzp/image/upload/v1707715416/assign/Screenshot_2024-02-12_at_10.51.39_AM.png)
 
-- Configure the top-level `parserOptions` property like this:
+### Page 3
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+![App Screenshot](https://res.cloudinary.com/dopqu0rzp/image/upload/v1707715416/assign/Screenshot_2024-02-12_at_10.51.50_AM.png)
+
+### Search Result
+
+![App Screenshot](https://res.cloudinary.com/dopqu0rzp/image/upload/v1707715416/assign/Screenshot_2024-02-12_at_10.52.01_AM.png)
+
+## Running locally    
+
+Install run: `npm i`
+
+
+```bash
+npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Your app template should now be running on [localhost:5173](http://localhost:5173/).
