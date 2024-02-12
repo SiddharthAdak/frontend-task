@@ -1,7 +1,6 @@
-# SWAPI PEOPLES
+# DESCRIPTION
 
-The assignment assigned for the React Developer Intern role involves the development of a web application using React.js and swapi api. This application display a list of users and also implements pagination. The bg color of each user card is based on hair_color. It also has a search input to search the user with name. The user should enter a character name (partial or complete) and will get all matching results displayed. 
-
+The assignment for the React Developer Intern role involves the development of a web application using React.js.
 
 ## Screenshots
 
