@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+@layer components{
+  .card_text{
+      @apply font-semibold w-max my-2 max-w-full text-wrap;
+  }
+}
